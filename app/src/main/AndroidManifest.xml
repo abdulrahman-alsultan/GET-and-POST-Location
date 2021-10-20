@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BonusAssignments">
-        <activity android:name=".SPR.SimplePOSTRequest"></activity>
+        <activity android:name=".GandPL.GetAndPostLocation"></activity>
+        <activity android:name=".SPR.SimplePOSTRequest" />
         <activity android:name=".RecyclerViewfromAPI" />
         <activity android:name=".SimpleGETRequest" />
         <activity android:name=".MainActivity">

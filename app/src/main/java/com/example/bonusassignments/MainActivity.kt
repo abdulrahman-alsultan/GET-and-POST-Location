@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.bonusassignments.GandPL.GetAndPostLocation
 import com.example.bonusassignments.SPR.SimplePOSTRequest
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +23,10 @@ class MainActivity : AppCompatActivity() {
 
     fun moveToSimplePOSTRequest(view: View) {
         startActivity(Intent(this, SimplePOSTRequest::class.java))
+    }
+
+    fun moveToGETandPOSTLocation(view: View) {
+        startActivity(Intent(this, GetAndPostLocation::class.java))
     }
 
 
