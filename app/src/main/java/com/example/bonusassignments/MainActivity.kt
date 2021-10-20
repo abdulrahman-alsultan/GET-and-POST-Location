@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.bonusassignments.SPR.SimplePOSTRequest
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,4 +19,10 @@ class MainActivity : AppCompatActivity() {
     fun moveToRecyclerViewfromAPI(view: View) {
         startActivity(Intent(this, RecyclerViewfromAPI::class.java))
     }
+
+    fun moveToSimplePOSTRequest(view: View) {
+        startActivity(Intent(this, SimplePOSTRequest::class.java))
+    }
+
+
 }
