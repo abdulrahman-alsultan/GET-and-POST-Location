@@ -14,4 +14,8 @@ class MainActivity : AppCompatActivity() {
     fun moveToSimpleGETRequest(view: View) {
         startActivity(Intent(this, SimpleGETRequest::class.java))
     }
+
+    fun moveToRecyclerViewfromAPI(view: View) {
+        startActivity(Intent(this, RecyclerViewfromAPI::class.java))
+    }
 }
